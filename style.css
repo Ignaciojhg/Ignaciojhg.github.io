@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Jet2.jpg');
+    background-repeat: no-repeat;
+}
+
+
+@media (max-width: 600px) {
+    section {
+        background-image: url('https://img.freepik.com/foto-gratis/jet-privado-lujo-terminal-aeropuerto_657883-451.jpg?w=740&t=st=1699977527~exp=1699978127~hmac=0afeedb89fe27bf83225d074b79a6430a14cd361ce9ff73c1d6a3061afd08b0a');
+        height: 100vh;
+    }
+}
+
+header {
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #444;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+}
+
+section {
+    padding: 2em;
+    position: fixed;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-left: 0;
+}
+
+h2{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}

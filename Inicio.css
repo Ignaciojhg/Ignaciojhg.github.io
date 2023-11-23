@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+header {
+    background-color: darkslategray;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    display: flex;
+
+    padding: 1em;
+}
+
+h1{
+    margin-right: 150px;
+}
+
+.boton1{
+    color: #1a1a1a;
+    background-color: #1a1a1a;
+    padding: 0px;
+    margin-right: 100px;
+    margin-left: 0;
+}
+
+.img-home{
+    width: 50px;
+}
+
+.content {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.plane-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.plane-item {
+    border-radius: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.plane-img{
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.copy{
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}

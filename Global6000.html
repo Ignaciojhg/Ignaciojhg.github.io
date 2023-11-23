@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Jet.css">
+    <title>Global 6000</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Boton retroceder -->
+            <a href="./Jet.html">
+                <button class="boton1">
+                <img class="img-retro" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPcGhGCy-PWjxzFAUpIKTrcIGJDy3gvgsuqA&usqp=CAU" alt="retroceder">
+                </button>
+            </a>
+            
+            <h1>Global 6000</h1>  
+
+            <!-- Cambiar modo claro/oscuro -->
+            <button id="btnmodo"><img class="noche" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAY1BMVEUAAAD////a2trz8/O2trb8/PxtbW3i4uK/v78/Pz+np6eFhYXNzc0dHR2kpKTp6eksLCzGxsavr684ODiMjIwRERFnZ2dUVFSSkpKenp51dXVOTk4iIiItLS0WFhZiYmJHR0eM+5L2AAAB8UlEQVR4nO3Z23KCMBSFYTeigFIPeLa1+v5PWeupIBF1TNxN5v/unVlrDEnYtFoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvJX1tBM4lkpfO4JTcxHRzuBUsS+YaIdwKdoXlFg7hUPD34IhP4bJoaAstHM4kx8Lykg7iCvLU8Fgt9JMQm/YDr3hZY0G2/CvoHxoZ3FiVWqYaYdxolNq2NUO48K6VFAG2mlcyMsNx9ppXJAK7TQOLKoNP7Xz2NerNiy089iXVxt2tPPY1642lLV2IOuuCgY4x7huGNyh/1Vr2NaOZNmm1lBW2pnsmtUbykQ7lF2GhoGt046hYqQdyqrE0FBS7VQ2paaGQc2+l8aGkmvnssdwXBwMv7WTWXN9Mb0I5oZa3GooUSAz/uxmw/2GE8Z0MWqoKPm2/oPvePP+lK+YNzXcvxOn/fJq3Q4S/zZa46FflYzToojT/LgteXdx3d1vWOHhdSB+qqCXo5ybZ6KJYe/5/yZPFPR08N99uKB3++hZ/8GCHo/iHqvoccHHFqrnn6Ymd3fUqXbElzWfi0PvrjIGu4YLnP9/4NHW/KbRCWlMvClqz+M4tG8ZrdE0jk5z1GE6CPCz8Nlspp0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeIcftecLOkRmcQQAAAAASUVORK5CYII=" alt="Luna"></button>     
+        </header>
+        
+        <div class="image-gallery">
+            <img class="img-scroll" src="https://c64djon8lb.execute-api.us-east-1.amazonaws.com/prod/q85-w1920/public/webdam/web-assets/eu/2-1-our-programmes/large-global-6000/global-october2016-leftside-54104477-v1.jpg?MQ6O1ctEgbYh8fdHx0daflDMueVRbfmb" alt="Imagen 1">
+            <img class="img-scroll" src="https://c64djon8lb.execute-api.us-east-1.amazonaws.com/prod/q85-w1920/public/webdam/web-assets/eu/2-1-our-programmes/large-global-6000/global-october2016-dinnerabove-54104424-v1.jpg?SBF1w7bcNQUOnJw_E_rJUm9VocmifwLu" alt="Imagen 2">
+            <img class="img-scroll" src="https://c64djon8lb.execute-api.us-east-1.amazonaws.com/prod/q85-w1920/public/webdam/web-assets/eu/2-1-our-programmes/2.1-flight-feels-brand-new-52525476-v1.jpg?St7tOSGKNVygog.2D2bV4i0q9UbQUD7D" alt="Imagen 3">
+        </div>
+
+        <div>
+            <div class="div-1">
+                <h2>UN AVIÓN CON GRAN AUTONOMÍA Y EXCELENTE RENDIMIENTO, PARA VIAJAR A DONDE QUIERA QUE LE LLEVEN SU VIDA Y SUS NEGOCIOS.</h2>
+                <h4>El Bombardier Global 6000 es un avión de negocios que destaca en su clase, con una excepcional autonomía de alcance ultralargo. Ofrece el equilibrio perfecto entre confort, velocidad y autonomía para satisfacer las necesidades de los viajeros más exigentes.
+                Un auxiliar de vuelo le servirá desde la zona de la cocina y de tripulación, totalmente separada para que la cabina sea lo más privada y silenciosa posible. La tranquila cabina también cuenta con un camarote privado, que puede ser utilizado para trabajar o relajarse.</h4>
+            </div>
+            
+            <div class="div-2">
+                <div class="ajuste">
+                    <span class="spec">13 </span> <em>Pasajeros</em>
+                </div>
+
+                <div class="ajuste">
+                    <span class="spec">13:30 </span> <em>Horas</em>
+                </div>
+                
+                <div class="ajuste">
+                    <span class="spec">5.52 <span>m</span><sup>3</sup></span>
+                    <em>Equipaje</em>
+                </div> 
+            </div>
+                       
+            
+        </div>
+
+        <form id="myForm">
+            <label for="nombre">*Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">*Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <select name="pais" id="pais">
+                <option value="sel">*Seleccione pais</option>
+                <option value="Es">España</option>
+                <option value="Al">Alemania​</option>
+                <option value="UK">Reino Unido</option>
+                <option value="fr">Francia</option>
+                <option value="Al">Alemania​</option>
+                <option value="Por">Portugal</option>
+                <option value="It">Italia</option>
+                <option value="Al">Alemania​</option>
+                <option value="Mr">Marruecos</option>
+            </select>
+
+            <label for="ciudad">*Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad" required>
+
+            <label for="tfn">*Teléfono:</label>
+            <input type="number" id="tfn" name="tfn" required>
+
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+
+            <button class="boton-solicitar" tipe="button" onclick="enviarFormulario()"> Solicitar mas información </button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

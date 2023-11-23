@@ -1,0 +1,156 @@
+body {
+    background-color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    transition: background-color 0.6s;
+}
+
+
+.container {
+    margin: 0 auto;
+}
+
+header {
+    background-color:darkslategray;
+    color: #fff;
+    margin: 0;
+    padding: 1em;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 20px 20px;
+    text-align:center;
+}
+
+h4 {
+    margin: 20px 20px;
+    text-align:justify;
+    font-weight: lighter;
+}
+
+form {
+    margin-bottom: 20px;
+    margin: 20px 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.boton-solicitar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton1{
+    color: #1a1a1a;
+    background-color: #1a1a1a;
+    padding: 0px;
+    margin-right: 40px;
+    margin-left: 0;
+}
+
+#btnmodo{
+    color: #1a1a1a;
+    background-color: #1a1a1a;
+    padding: 0px;
+    margin-left: 50px;
+}
+
+.img-retro{
+    width: 50px;
+}
+
+.noche{
+    width: 50px; 
+}
+
+.modo-noche {
+    transition: background-color 0.6s, color 0.6s; /* Agregamos una transición suave para el fondo y color de los elementos con clase toggle-mode */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.image-gallery {
+    display: flex;
+    overflow: hidden;
+}
+
+.img-scroll{
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+    border-radius: 5px;
+    animation: scroll 25s linear infinite;
+}
+
+#myForm{
+    margin: 15px;
+    font-weight: bold;
+    border-top: #a08545 solid;
+    padding-top: 10px;
+}
+
+.div-1{
+    border-top: #a08545 solid;
+}
+
+.div-2{
+    margin-left: 25px;
+}
+
+.ajuste{
+    margin: 20px;
+    font-size: 15px;
+}
+
+.spec {
+    font-size: large;
+    font-weight: bold;
+    border-left: #a08545 solid;
+    padding-left: 5px;
+}
+
+#pais{
+    height: 35px;
+    padding: 5px 5px 15px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+@keyframes scroll { /*Desplaza la imagen hacia la izquierda*/
+    0% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(-210%);
+    }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Jet.css">
+    <title>Challenger 350</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Boton retroceder -->
+            <a href="./Jet.html">
+                <button class="boton1">
+                <img class="img-retro" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPcGhGCy-PWjxzFAUpIKTrcIGJDy3gvgsuqA&usqp=CAU" alt="retroceder">
+                </button>
+            </a>
+            
+            <h1>Challenger 350</h1>  
+
+            <!-- Cambiar modo claro/oscuro -->
+            <button id="btnmodo" class="modo-noche"><img class="noche" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAY1BMVEUAAAD////a2trz8/O2trb8/PxtbW3i4uK/v78/Pz+np6eFhYXNzc0dHR2kpKTp6eksLCzGxsavr684ODiMjIwRERFnZ2dUVFSSkpKenp51dXVOTk4iIiItLS0WFhZiYmJHR0eM+5L2AAAB8UlEQVR4nO3Z23KCMBSFYTeigFIPeLa1+v5PWeupIBF1TNxN5v/unVlrDEnYtFoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvJX1tBM4lkpfO4JTcxHRzuBUsS+YaIdwKdoXlFg7hUPD34IhP4bJoaAstHM4kx8Lykg7iCvLU8Fgt9JMQm/YDr3hZY0G2/CvoHxoZ3FiVWqYaYdxolNq2NUO48K6VFAG2mlcyMsNx9ppXJAK7TQOLKoNP7Xz2NerNiy089iXVxt2tPPY1642lLV2IOuuCgY4x7huGNyh/1Vr2NaOZNmm1lBW2pnsmtUbykQ7lF2GhoGt046hYqQdyqrE0FBS7VQ2paaGQc2+l8aGkmvnssdwXBwMv7WTWXN9Mb0I5oZa3GooUSAz/uxmw/2GE8Z0MWqoKPm2/oPvePP+lK+YNzXcvxOn/fJq3Q4S/zZa46FflYzToojT/LgteXdx3d1vWOHhdSB+qqCXo5ybZ6KJYe/5/yZPFPR08N99uKB3++hZ/8GCHo/iHqvoccHHFqrnn6Ymd3fUqXbElzWfi0PvrjIGu4YLnP9/4NHW/KbRCWlMvClqz+M4tG8ZrdE0jk5z1GE6CPCz8Nlspp0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeIcftecLOkRmcQQAAAAASUVORK5CYII=" alt="Luna"></button>    
+        </header>
+        
+        <!-- Galeria de imagenes -->
+        <div class="image-gallery">
+            <img class="img-scroll" src="https://c64djon8lb.execute-api.us-east-1.amazonaws.com/prod/q85-w1920/public/webdam/web-assets/eu/2-1-our-programmes/super-mid-challenger-350/nji-2735-54102612-v1.jpg?QWtZreCGKudiKw8zkMd8qBwaiyfNcfXZ" alt="Imagen 1">
+            <img class="img-scroll" src="https://c64djon8lb.execute-api.us-east-1.amazonaws.com/prod/q85-w1920/public/webdam/web-assets/eu/2-1-our-programmes/super-mid-challenger-350/netjets-europe-c350-020-54102726-v2.jpg?DWp1LaJG_06NXXKraX0lo_O19X1q0U9d" alt="Imagen 3">
+            <img class="img-scroll" src="https://c64djon8lb.execute-api.us-east-1.amazonaws.com/prod/q85-w1920/public/webdam/web-assets/eu/2-1-our-programmes/super-mid-challenger-350/nj17-0194-54102791-v1.jpg?rY3qRS7xbXheqa.VlwQ8vDvgOSqyYKpt" alt="Imagen 4">
+        </div>
+
+        <!-- Descripcion -->
+        <div>
+            <div class="div-1">
+                <h2>UN CONFORT SUPERIOR COMBINADO CON UN RENDIMIENTO ÓPTIMO.</h2>
+                <h4>Gracias a su impresionante autonomía y excelente capacidad en pista, con el Bombardier Challenger 350 no tendrá que renunciar a nada.Una vez a bordo, esta aeronave le ofrece cómodos asientos para hasta 9* pasajeros —diván convertible incluido— y múltiples detalles personalizados como la máquina de bebidas calientes de dosis individual, la tablet especial NetJets y el sistema móvil de entretenimiento a bordo. Por otro lado, el horno microondas permite a los pasajeros calentar su comida. La gran autonomía y el amplio espacio para equipaje del Challenger 350 lo convierten en una opción perfecta para cualquier viaje, ya sea de negocios o de placer.</h4>
+            </div>
+            
+            <!-- Descripcion tecnica -->
+            <div class="div-2">
+                <div class="ajuste">
+                    <span class="spec">9 </span> <em>Pasajeros</em>
+                </div>
+
+                <div class="ajuste">
+                    <span class="spec">7:45 </span> <em>Horas</em>
+                </div>
+                
+                <div class="ajuste">
+                    <span class="spec">3 <span>m</span><sup>3</sup></span>
+                    <em>Equipaje</em>
+                </div> 
+            </div>
+                       
+            
+        </div>
+
+        <!-- Formulario -->
+        <form id="myForm">
+            <label for="nombre">*Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">*Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <select name="pais" id="pais">
+                <option value="sel">*Seleccione pais</option>
+                <option value="Es">España</option>
+                <option value="Al">Alemania​</option>
+                <option value="UK">Reino Unido</option>
+                <option value="fr">Francia</option>
+                <option value="Al">Alemania​</option>
+                <option value="Por">Portugal</option>
+                <option value="It">Italia</option>
+                <option value="Al">Alemania​</option>
+                <option value="Mr">Marruecos</option>
+            </select>
+
+            <label for="ciudad">*Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad" required>
+
+            <label for="tfn">*Teléfono:</label>
+            <input type="number" id="tfn" name="tfn" required>
+
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+
+            <button class="boton-solicitar" tipe="button" onclick="enviarFormulario()"> Solicitar mas información </button>
+        </form>
+    </div>
+
+    <!-- Redireccion JS -->
+    <script src="script.js"></script>
+</body>
+</html>
